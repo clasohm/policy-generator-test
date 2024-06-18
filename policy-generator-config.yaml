@@ -3,7 +3,7 @@ kind: PolicyGenerator
 metadata:
   name: config-data-policies
 policyDefaults:
-  namespace: policies
+  namespace: open-cluster-management-global-set
   policySets: []
   placement:
     labelSelector:
