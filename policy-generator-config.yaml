@@ -12,6 +12,7 @@ policyDefaults:
           operator: In
           values:
             - OpenShift
+  remediationAction: enforce
 policies:
   - name: config-data
     manifests:
