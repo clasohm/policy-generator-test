@@ -5,6 +5,13 @@ metadata:
 policyDefaults:
   namespace: policies
   policySets: []
+  placement:
+    labelSelector:
+      matchExpressions:
+        - key: vendor
+          operator: In
+          values:
+            - OpenShift
 policies:
   - name: config-data
     manifests:
